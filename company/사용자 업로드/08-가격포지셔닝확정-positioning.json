@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "generated_for": "MAGMA 3040 남성 데일리 스마트 캐주얼 (KR)",
+  "as_of": "2026-06-16",
+  "currency": "KRW",
+  "observation_count": 31,
+  "excluded_observation_count": 0,
+  "banding": {
+    "mode": "user",
+    "bands": [
+      {
+        "label": "저가",
+        "min": null,
+        "max": 50000.0
+      },
+      {
+        "label": "중가",
+        "min": 50000.0,
+        "max": 150000.0
+      },
+      {
+        "label": "프리미엄",
+        "min": 150000.0,
+        "max": null
+      }
+    ]
+  },
+  "bands": [
+    {
+      "label": "저가",
+      "count": 10,
+      "share": 0.3226,
+      "min": 19000.0,
+      "p25": 19925.0,
+      "median": 24700.0,
+      "p75": 31800.0,
+      "max": 39900.0,
+      "mean": 26640.0,
+      "stdev": 7110.3024,
+      "examples": [
+        {
+          "brand": "지오다노",
+          "item": "남성 피케 폴로 티핑 반팔 카라티 015510",
+          "price": 19000.0,
+          "source_url": "Google Shopping / bdata"
+        },
+        {
+          "brand": "지오다노",
+          "item": "나일론 조거 팬츠 114535",
+          "price": 25600.0,
+          "source_url": "Google Shopping / bdata"
+        },
+        {
+          "brand": "스파오",
+          "item": "리넨블렌드 오버핏 반팔 셔츠 SPYWG25M04",
+          "price": 39900.0,
+          "source_url": "Google Shopping / bdata"
+        }
+      ]
+    },
+    {
+      "label": "중가",
+      "count": 10,
+      "share": 0.3226,
+      "min": 74100.0,
+      "p25": 97500.0,
+      "median": 105945.0,
+      "p75": 110325.0,
+      "max": 129000.0,
+      "mean": 103639.0,
+      "stdev": 14503.6095,
+      "examples": [
+        {
+          "brand": "닥스",
+          "item": "레귤러핏 드레스셔츠 7종 택일",
+          "price": 74100.0,
+          "source_url": "Google Shopping / bdata"
+        },
+        {
+          "brand": "라코스테",
+          "item": "레터링 루즈핏 폴로 셔츠",
+          "price": 107400.0,
+          "source_url": "Google Shopping / bdata"
+        },
+        {
+          "brand": "지오지아",
+          "item": "린넨 블렌드 패턴 자켓",
+          "price": 129000.0,
+          "source_url": "Google Shopping / bdata"
+        }
+      ]
+    },
+    {
+      "label": "프리미엄",
+      "count": 11,
+      "share": 0.3548,
+      "min": 167200.0,
+      "p25": 186100.0,
+      "median": 299000.0,
+      "p75": 375535.0,
+      "max": 439000.0,
+      "mean": 288755.4545,
+      "stdev": 101585.4153,
+      "examples": [
+        {
+          "brand": "Theory",
+          "item": "Men Precision Ponte Terrance Pants",
+          "price": 167200.0,
+          "source_url": "SSF Shop / Google Shopping / bdata"
+        },
+        {
+          "brand": "폴로 랄프 로렌",
+          "item": "클래식핏 폴로 베어 옥스포드 셔츠",
+          "price": 299000.0,
+          "source_url": "Ralph Lauren / Google Shopping / bdata scrape 일부 확인"
+        },
+        {
+          "brand": "폴로 랄프 로렌",
+          "item": "클래식핏 리넨 실크 워크셔츠",
+          "price": 439000.0,
+          "source_url": "Google Shopping / bdata"
+        }
+      ]
+    }
+  ],
+  "whitespace": [
+    {
+      "type": "largest_gap",
+      "interval": [
+        219000.0,
+        299000.0
+      ],
+      "width": 80000.0,
+      "width_pct_of_range": 0.1905,
+      "confidence": "high",
+      "evidence": "25 obs at/below 219000.0, 6 obs at/above 299000.0"
+    }
+  ],
+  "outliers": [
+    {
+      "brand": "닥스",
+      "item": "레귤러핏 드레스셔츠 7종 택일",
+      "price": 74100.0,
+      "band": "중가",
+      "reason": "outside band IQR fence [78262.5, 129562.5]"
+    }
+  ],
+  "value_metrics": {
+    "per_unit": 31
+  },
+  "data_gaps": [],
+  "flags": {
+    "red": [],
+    "yellow": []
+  }
+}

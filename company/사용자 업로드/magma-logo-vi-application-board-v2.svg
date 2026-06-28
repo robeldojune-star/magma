@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">MAGMA Logo VI Application Board v2</title>
+<desc id="desc">A launch package board showing MAGMA Strata Mark, palette, typography, moodboard, and application examples.</desc>
+<defs>
+  <style>
+    .bg{fill:#F4F1EA}.card{fill:#FAFAF8;stroke:#E2E8F0;stroke-width:2}.teal{fill:#0F595E}.tealDark{fill:#0D3F45}.terr{fill:#C05621}.ink{fill:#1A202C}.sub{fill:#4A5568}.line{stroke:#0F595E;stroke-width:4;stroke-linecap:round}.thin{stroke:#E2E8F0;stroke-width:2}.terrLine{stroke:#C05621;stroke-width:6;stroke-linecap:round}.title{font-family:'Noto Serif KR',serif;font-size:48px;font-weight:700;letter-spacing:.12em}.h{font-family:'Noto Sans KR',sans-serif;font-size:28px;font-weight:700}.b{font-family:'Noto Sans KR',sans-serif;font-size:20px}.c{font-family:'Noto Sans KR',sans-serif;font-size:16px}.num{font-family:'Inter','Noto Sans KR',sans-serif;font-size:54px;font-weight:700;letter-spacing:.01em}.small{font-family:'Noto Sans KR',sans-serif;font-size:14px}</style>
+</defs>
+<rect class="bg" x="0" y="0" width="1600" height="1000"/>
+<text class="title tealDark" x="90" y="95">MAGMA</text>
+<text class="b sub" x="94" y="130">로고·VI·무드보드·적용 예시 / 런칭 패키지 v2</text>
+<line class="terrLine" x1="94" y1="158" x2="245" y2="158"/>
+<rect class="card" x="80" y="200" width="420" height="300" rx="22"/>
+<text class="h ink" x="115" y="250">Primary Logo</text>
+<circle class="teal" cx="290" cy="352" r="86"/>
+<path d="M230 350 C265 330 320 330 350 350" fill="none" stroke="#F4F1EA" stroke-width="14" stroke-linecap="round"/>
+<path d="M235 382 C270 365 315 365 348 382" fill="none" stroke="#F4F1EA" stroke-width="10" stroke-linecap="round"/>
+<line x1="242" y1="407" x2="340" y2="407" stroke="#C05621" stroke-width="10" stroke-linecap="round"/>
+<text class="b sub" x="125" y="466">Strata Mark — 식은 마그마의 지층</text>
+<rect class="card" x="540" y="200" width="420" height="300" rx="22"/>
+<text class="h ink" x="575" y="250">Color Tokens</text>
+<rect x="585" y="285" width="90" height="90" rx="14" fill="#0F595E"/><text class="small sub" x="585" y="395">#0F595E</text>
+<rect x="705" y="285" width="90" height="90" rx="14" fill="#F4F1EA" stroke="#E2E8F0"/><text class="small sub" x="705" y="395">#F4F1EA</text>
+<rect x="825" y="285" width="90" height="90" rx="14" fill="#C05621"/><text class="small sub" x="825" y="395">#C05621</text>
+<text class="b sub" x="585" y="452">60 / 30 / 10 — 강조는 한 줄만</text>
+<rect class="card" x="1000" y="200" width="520" height="300" rx="22"/>
+<text class="h ink" x="1035" y="250">Typography</text>
+<text class="title teal" x="1035" y="335">MAGMA</text>
+<text class="b ink" x="1040" y="392">Noto Serif KR · tracking +0.18em</text>
+<text class="c sub" x="1040" y="435">본문/UI: Noto Sans KR · 가격/숫자: Inter</text>
+<rect class="card" x="80" y="545" width="450" height="340" rx="22"/>
+<text class="h ink" x="115" y="595">Moodboard</text>
+<rect x="115" y="630" width="130" height="90" rx="14" fill="#D8C7AF"/><rect x="260" y="630" width="130" height="90" rx="14" fill="#6B6258"/><rect x="405" y="630" width="80" height="90" rx="14" fill="#C05621"/>
+<path d="M130 770 H455" class="line"/><path d="M145 810 H420" class="thin"/><path d="M145 838 H365" class="thin"/>
+<text class="b sub" x="115" y="868">자연광 · 원단 결 · 조용한 사무실 · 종이 질감</text>
+<rect class="card" x="570" y="545" width="450" height="340" rx="22"/>
+<text class="h ink" x="605" y="595">Deck Applications</text>
+<rect x="610" y="640" width="360" height="60" rx="10" fill="#0F595E" opacity="0.16"/><rect x="610" y="713" width="300" height="60" rx="10" fill="#0F595E" opacity="0.28"/><rect x="610" y="786" width="225" height="60" rx="10" fill="#0F595E" opacity="0.44"/>
+<line x1="760" y1="625" x2="760" y2="860" class="terrLine"/>
+<text class="num tealDark" x="810" y="688">149,000</text>
+<text class="b sub" x="810" y="730">가격축 기준선</text>
+<rect class="card" x="1060" y="545" width="460" height="340" rx="22"/>
+<text class="h ink" x="1095" y="595">Product System</text>
+<rect x="1100" y="635" width="350" height="50" rx="10" fill="#FAFAF8" stroke="#0F595E" stroke-width="3"/>
+<line x1="1130" y1="663" x2="1245" y2="663" class="line"/><line x1="1270" y1="663" x2="1420" y2="663" class="terrLine"/>
+<text class="b ink" x="1100" y="730">행택 · 넥라벨 · 웹 헤더</text>
+<text class="c sub" x="1100" y="770">Small Mark는 작게, 정보 위계는 단정하게.</text>
+<text class="c sub" x="1100" y="805">제품보다 로고가 먼저 보이지 않게 사용.</text>
+<text class="c tealDark" x="90" y="950">Recommendation: Strata Mark primary, Quiet M support, Heat Seam as product/detail module.</text>
+</svg>
